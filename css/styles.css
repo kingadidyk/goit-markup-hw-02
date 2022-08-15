@@ -1,0 +1,115 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+
+.logo {
+  color: #2196F3,
+  font-weight: 700; 
+  font-size: 26px;
+}
+
+.nav {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+
+.headline-color {
+  color: #2196F3;
+}
+
+.contact-color {
+  color: #757575;
+}
+
+.main-text {
+  color:#FFFFFF;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+button[type] {
+  color: #FFFFFF
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.button-type {
+  cursor: pointer;
+}
+
+.text {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text-describe {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.job-describe {
+  color: #212121
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.team-describe {
+  color: #212121
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.photo {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.photo-describe {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+
+.adress {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+div {
+  line-height: 1.71;
+}
+
+
+
+.button-portfolio {
+  color:#212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.button-all {
+  color: #FFFFFF
+}
+
+.photo-portfolio {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}

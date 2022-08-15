@@ -9,26 +9,36 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", "Raleway", sans-serif;
+      }
+    </style>
   </head>
 
   <body>
     <header>
-      <a href="./index.html"><h3>WebStudio</h3></a>
-      <nav>
-        <ul>
+      <a href="./index.html"><h3 class="logo">WebStudio</h3></a>
+      <nav class="cursors">
+        <ul class="nav button-type">
           <li><a href="agencja">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li class="headline-color">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
           <li><a href="kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@example.com">info@example.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="contact-color" href="mailto:info@example.com"
+        >info@example.com</a
+      >
+      <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
     </header>
 
     <main>
-      <div>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
+      <div class="button-portfolio cursors">
+        <ul class="button-type">
+          <li class="button-all"><button type="button">Wszystkie</button></li>
           <li><button type="button">Strony</button></li>
           <li><button type="button">Aplikacje</button></li>
           <li><button type="button">Dizajn</button></li>
@@ -47,8 +57,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Technocrack</b></p>
-                <p>Strona internetowa</p>
+                <p class="photo-portfolio"><b>Technocrack</b></p>
+                <p class="photo-describe">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -61,8 +71,10 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Grafika New Orlean vs Golden Star</b></p>
-                <p>Dizajn</p>
+                <p class="photo-portfolio">
+                  <b>Grafika New Orlean vs Golden Star</b>
+                </p>
+                <p class="photo-describe">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -75,8 +87,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Restauracja Seafood</b></p>
-                <p>Aplikacja</p>
+                <p class="photo-portfolio"><b>Restauracja Seafood</b></p>
+                <p class="photo-describe">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -89,8 +101,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Projekt Prime</b></p>
-                <p>Marketing</p>
+                <p class="photo-portfolio"><b>Projekt Prime</b></p>
+                <p class="photo-describe">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -103,8 +115,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Projekt Boxes</b></p>
-                <p>Aplikacja</p>
+                <p class="photo-portfolio"><b>Projekt Boxes</b></p>
+                <p class="photo-describe">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -117,8 +129,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Inspiration has no Borders</b></p>
-                <p>Strona internetowa</p>
+                <p class="photo-portfolio"><b>Inspiration has no Borders</b></p>
+                <p class="photo-describe">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -131,8 +143,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Magazyn Limited Edition</b></p>
-                <p>Dizajn</p>
+                <p class="photo-portfolio"><b>Magazyn Limited Edition</b></p>
+                <p class="photo-describe">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -145,8 +157,8 @@
                 height="294"
               />
               <figcaption>
-                <p><b>Projekt LAB</b></p>
-                <p>Marketing</p>
+                <p class="photo-portfolio"><b>Projekt LAB</b></p>
+                <p class="photo-describe">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -160,7 +172,7 @@
               />
               <figcaption>
                 <p><b>Growing Business</b></p>
-                <p>Aplikacja</p>
+                <p class="photo-describe">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -169,13 +181,15 @@
     </main>
     <footer>
       <div>
-        <a href="index.html"><h3>WebStudio</h3></a>
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <a href="index.html"><h3 class="logo">WebStudio</h3></a>
+        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
         <address>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a class="contact-color" href="mailto:info@example.com"
+            >info@example.com</a
+          >
         </address>
         <address>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
         </address>
       </div>
     </footer>

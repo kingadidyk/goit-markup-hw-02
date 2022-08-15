@@ -5,33 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
   </head>
+
   <body>
     <header>
-      <a href="index.html"><h3>WebStudio</h3></a>
-      <nav>
-        <ul>
-          <li><a href="agencja">Agencja</a></li>
+      <a href="index.html"><h3 class="logo">WebStudio</h3></a>
+      <nav class="cursors">
+        <ul class="nav button-type">
+          <li class="headline-color"><a href="agencja">Agencja</a></li>
           <li><a href="./portfolio.html">Portfolio</a></li>
           <li><a href="kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@example.com">info@example.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="headline-color" href="mailto:info@example.com"
+        >info@example.com</a
+      >
+      <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
     </header>
+
     <main>
       <section>
-        <h1>
+        <h1 class="main-text">
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
         <button type="button">Zamów usługę</button>
 
         <ul>
-          <li>
+          <li class="text">
             <b>Lorem ipsum</b>
 
-            <p>
+            <p class="text-describe">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
               placeat dolorum quis doloribus commodi aliquid, culpa nisi hic
               est. Dolore distinctio, beatae quaerat ab omnis similique
@@ -39,10 +53,10 @@
             </p>
           </li>
 
-          <li>
+          <li class="text">
             <b>Lorem ipsum</b>
 
-            <p>
+            <p class="text-describe">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis
               placeat magnam modi laudantium rem nam commodi dolores sint omnis,
               architecto beatae mollitia molestias quis ad quia quisquam quaerat
@@ -50,10 +64,10 @@
             </p>
           </li>
 
-          <li>
+          <li class="text">
             <b>Lorem ipsum</b>
 
-            <p>
+            <p class="text-describe">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
               magnam similique velit quidem recusandae dolores. Dolore, dolores
               qui. Dolore dolorum eos provident dolores illum quidem vel quis
@@ -61,10 +75,10 @@
             </p>
           </li>
 
-          <li>
+          <li class="text">
             <b>Lorem ipsum</b>
 
-            <p>
+            <p class="text-describe">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Veritatis quas vel aut, accusantium quaerat exercitationem
               eligendi impedit iste rerum ea sequi pariatur ullam numquam
@@ -75,7 +89,7 @@
       </section>
 
       <section>
-        <h2>Czym się zajmujemy</h2>
+        <h2 class="job-describe">Czym się zajmujemy</h2>
         <ul>
           <li>
             <img
@@ -105,7 +119,7 @@
       </section>
 
       <section>
-        <h2>Nasz zespół</h2>
+        <h2 class="team-describe">Nasz zespół</h2>
         <ul>
           <li>
             <figure>
@@ -116,8 +130,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe </b></p>
-                <p>Product Designer</p>
+                <p class="photo"><b>John Doe </b></p>
+                <p class="photo-describe">Product Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -131,8 +145,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe </b></p>
-                <p>Frontend Developer</p>
+                <p class="photo"><b>John Doe </b></p>
+                <p class="photo-describe">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
@@ -146,8 +160,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>Marketing</p>
+                <p class="photo"><b>John Doe</b></p>
+                <p class="photo-describe">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -161,8 +175,8 @@
                 height="260"
               />
               <figcaption>
-                <p><b>John Doe</b></p>
-                <p>UI Designer</p>
+                <p class="photo"><b>John Doe</b></p>
+                <p class="photo-describe">UI Designer</p>
               </figcaption>
             </figure>
           </li>
@@ -172,13 +186,15 @@
 
     <footer>
       <div>
-        <a href="index.html"><h3>WebStudio</h3></a>
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+        <a href="index.html"><h3 class="logo">WebStudio</h3></a>
+        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
         <address>
-          <a href="mailto:info@example.com">info@example.com</a>
+          <a class="contact-color" href="mailto:info@example.com"
+            >info@example.com</a
+          >
         </address>
         <address>
-          <a href="tel:+48111111111">+48 111 111 111</a>
+          <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
         </address>
       </div>
     </footer>

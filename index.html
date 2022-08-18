@@ -18,30 +18,37 @@
   </head>
 
   <body>
-    <header>
-      <a href="index.html"><h3 class="logo">WebStudio</h3></a>
-      <nav class="cursors">
-        <ul class="nav button-type">
-          <li class="headline-color"><a href="agencja">Agencja</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="kontakt">Kontakt</a></li>
+    <header class="headline">
+      <a href="index.html" class="link"
+        ><h3 class="logo">
+          <span style="color: #2196f3">Web</span
+          ><span style="color: #000000">Studio</span>
+        </h3>
+      </a>
+      <nav>
+        <ul class="navigation button pointer">
+          <li><a href="agencja" class="link bluelink">Agencja</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="kontakt" class="link">Kontakt</a></li>
         </ul>
       </nav>
-      <a class="headline-color" href="mailto:info@example.com"
-        >info@example.com</a
-      >
-      <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
+      <a href="mailto:info@example.com" class="link bluelink"
+        >info@example.com
+      </a>
+      <a href="tel:+48111111111" class="contact-color link">+48 111 111 111</a>
     </header>
 
     <main>
-      <section>
-        <h1 class="main-text">
+      <section class="main-text">
+        <h1>
           EFEKTYWNE ROZWIĄZANIA <br />
           DLA WASZEGO BIZNESU
         </h1>
-        <button type="button">Zamów usługę</button>
+        <button type="button" class="main-button">Zamów usługę</button>
+      </section>
 
-        <ul>
+      <section>
+        <ul class="text-background-color">
           <li class="text">
             <b>Lorem ipsum</b>
 
@@ -118,7 +125,7 @@
         </ul>
       </section>
 
-      <section>
+      <section class="section-team">
         <h2 class="team-describe">Nasz zespół</h2>
         <ul>
           <li>
@@ -185,16 +192,23 @@
     </main>
 
     <footer>
-      <div>
-        <a href="index.html"><h3 class="logo">WebStudio</h3></a>
-        <address class="address">m. Warszawa, Aleje Jerozolimskie 21</address>
+      <div class="footnote">
+        <a href="index.html" class="link"
+          ><h3 class="logo">
+            <span style="color: #2196f3">Web</span
+            ><span style="color: #ffffff">Studio</span>
+          </h3></a
+        >
+        <address class="location">m. Warszawa, Aleje Jerozolimskie 21</address>
         <address>
-          <a class="contact-color" href="mailto:info@example.com"
+          <a class="contact-color link" href="mailto:info@example.com"
             >info@example.com</a
           >
         </address>
         <address>
-          <a class="contact-color" href="tel:+48111111111">+48 111 111 111</a>
+          <a class="contact-color link" href="tel:+48111111111"
+            >+48 111 111 111</a
+          >
         </address>
       </div>
     </footer>

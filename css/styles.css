@@ -1,115 +1,187 @@
+:root {
+  --text-color: #757575; 
+  --text2-color: #2196F3;
+  --text3-color: #212121;
+  --text4-color: #FFFFFF;
+  --background-color: #2F303A;
+  --background2-color: #F5F4FA;
+  --background3-color: #E5E5E5;
+  --background4-color: #FFFFFF;
+  --background5-color: #2196F3;
+}
+
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #212121;
+  color: var(--text-color);
+  background-color: var(--background3-color);
+}
+
+.headline{
+  background-color: var(--background4-color);
+}
+
+.headline .link {
+  text-decoration: none;
 }
 
 .logo {
   color: #2196F3,
+  font: Raleway;
   font-weight: 700; 
   font-size: 26px;
+  text-decoration: none;
 }
 
-.nav {
-  color: #212121;
+.navigation .link {
+  text-decoration: none;
+}
+
+.navigation {
+  color: var(--text3-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.5;
-
 }
 
-.headline-color {
-  color: #2196F3;
+.link { 
+  color: var(--text3-color);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--text2-color);
+}
+
+.bluelink {
+  color: var(--text2-color);
+}
+
+.bluelink-active {
+  color: var(--text2-color);
 }
 
 .contact-color {
-  color: #757575;
+  color: var(--text-color);
+  text-decoration: none;
 }
 
 .main-text {
-  color:#FFFFFF;
+  color: var(--text4-color);
+  background-color: var(--background-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
 
-button[type] {
-  color: #FFFFFF
+.main-button {
+  background-color: var(--background5-color);
+  color: var(--text4-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  cursor: auto;
 }
 
-.button-type {
+.main-button:hover {
+  background-color: var(--background4-color);
+  color: var(--text3-color);
+}
+
+.button {
   cursor: pointer;
+  color: var(--text3-color);
+}
+
+.button:focus {
+  background-color: var(--background5-color);
+  color: var(--text4-color);
+}
+
+.button-portfolio {
+  color: var(--text3-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.button:hover
+.button:focus {
+  background-color: var(--background5-color);
+  color: var(--text4-color);
 }
 
 .text {
-  color: #212121;
+  color: var(--text3-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
 }
 
+.text-background-color {
+  background-color: var(--background4-color);
+}
+
 .text-describe {
-  color: #757575;
+  color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
 }
 
 .job-describe {
-  color: #212121
+  color: var(--text3-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
 
 .team-describe {
-  color: #212121
+  color: var(--text3-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 }
 
+.section-team {
+  background-color: var(--background2-color);
+}
+
 .photo {
-  color: #212121;
+  color: var(--text3-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 
 .photo-describe {
-  color: #757575;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.18;
 }
 
+.photo-portfolio {
+  color: var(--text3-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
 
-.adress {
-  color: #FFFFFF;
+.location {
+  color: var(--text4-color);
   font-size: 14px;
   line-height: 1.71;
 }
 
-div {
+
+.footnote {
+  background-color: var(--background-color);
   line-height: 1.71;
 }
 
-
-
-.button-portfolio {
-  color:#212121;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
+.footnote .link {
+  text-decoration: none;
 }
 
-.button-all {
-  color: #FFFFFF
-}
-
-.photo-portfolio {
-  color: #212121;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+.main-background-color{
+background-color: var(--background3-color)
 }

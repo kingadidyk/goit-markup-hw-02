@@ -14,7 +14,6 @@
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--text-color);
-  background-color: var(--background3-color);
 }
 
 .headline{
@@ -177,3 +176,4 @@ body {
 .main-background-color{
 background-color: var(--background3-color)
 }
+

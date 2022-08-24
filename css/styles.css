@@ -26,7 +26,7 @@ body {
 
 .logo {
   color: #2196F3,
-  font: Raleway;
+  font: 'Raleway';
   font-weight: 700; 
   font-size: 26px;
   font-style: normal;
@@ -79,12 +79,16 @@ body {
 .main-button {
   background-color: var(--background5-color);
   color: var(--text4-color);
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
+  font-style: normal;
   cursor: pointer;
   width: 200px;
   height: 50px;
   border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button {
@@ -102,13 +106,17 @@ body {
 .button-portfolio {
   color: var(--text3-color);
   background-color: var(--background4-color);
-  left: 639px;
-  top: 174px;
+  width: 49px;
+  left: 661px;
+  top: 180px;
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
+  line-height: 1.625;
   border-radius: 4px;
 }
 

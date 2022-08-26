@@ -108,6 +108,15 @@ body {
   border: none;
 }
 
+
+.button-portfolio .button:hover,
+.button-portfolio .button:focus {
+  background-color: var(--background5-color);
+  color: var(--text4-color);
+  border: none;
+}
+
+
 .button-portfolio {
   color: var(--text3-color);
   background-color: var(--background4-color);
